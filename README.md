@@ -16,20 +16,20 @@ core of what is called the "binutils".
 I will use the following conventions in the documentation of my assemby
 "functions":
 
-      "%eax ->" means that %eax is an input of the function.
-      "-> %eax" means that %eax is an output of the function.
-      "~~ %eax" means that %eax is modified by the function
-          (but is neither an input or an output).
+- `%eax ->` means that %eax is an input of the function.
+- `-> %eax` means that %eax is an output of the function.
+- `~~ %eax` means that %eax is modified by the function
+    (but is neither an input or an output).
 
 Contents
 ================================================================================
 
-1. box      -> Windows Dialog in Assembler
-2. console  -> Windows Console Message in Assembler with win32 API
-3. printf   -> Windows Console Message in Assembler with C Standard Library
-4. dll      -> Producing a DLL from Assembler
-5. shared   -> Shared Memory in DLLs and Executables
-6. static   -> Producing a static library from Assembler
+1. `box .....` Windows Dialog in Assembler
+2. `console .` Windows Console Message in Assembler with win32 API
+3. `printf ..` Windows Console Message in Assembler with C Standard Library
+4. `dll .....` Producing a DLL from Assembler
+5. `shared ..` Shared Memory in DLLs and Executables
+6. `static ..` Producing a static library from Assembler
 
 Assembly Links
 ================================================================================
@@ -56,8 +56,7 @@ Explanations & Tutorial
 Linkers
 --------------------------------------------------------------------------------
 
-- [Linkers and Loaders](http://www.linuxjournal.com/article/6463): start with this simple explanation that coversIn the documentation of an assembly function (a label marking code that returns,
-after its completion, to an address pushed on the stack before it was run) :
- all the basics.
-- [Linkers by Ian Lance Taylor](http://www.airs.com/blog/index.php?s=linkers): an in-depth discussion of various aspects of linking.
+- [Linkers and Loaders](http://www.linuxjournal.com/article/6463) (simple)
+- [Linkers by Ian Lance Taylor](http://www.airs.com/blog/index.php?s=linkers)
+  (thorough)
 - [File extensions used in linking](http://stackoverflow.com/questions/6422478/linking-a-lib-and-def-files)

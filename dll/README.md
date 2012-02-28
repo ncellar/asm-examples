@@ -1,4 +1,4 @@
-We take the code to display a message box (../box), turn it into a function and
+We take the code to display a message box (`../box`), turn it into a function and
 wrap it in a DLL, whose code is in file `dlldll.asm`. `dlldllmake.bat` makes the
 .dll file.
 

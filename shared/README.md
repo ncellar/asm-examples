@@ -1,13 +1,8 @@
 `shareddll.asm` implements a dll that can be shared between multiple
 executables. Code for such an executable is in `sharedexe.dll`.
 
-Test on cygwin with :
-
-    ./sharedexe.exe | ./sharedexe.exe | ./sharedexe.exe
-
-Or on cmd.exe with :
-
-   sharedexe.exe | sharedexe.exe | sharedexe.exe
+Test on cygwin with : `./sharedexe.exe | ./sharedexe.exe | ./sharedexe.exe` or
+on cmd.exe with : `sharedexe.exe | sharedexe.exe | sharedexe.exe`.
 
 You should press enter after launching the command, then "value : 3" should be
 displayed. The code is a bit messy and rely on the fact that the time it takes
