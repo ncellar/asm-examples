@@ -24,12 +24,12 @@ I will use the following conventions in the documentation of my assemby
 Contents
 ================================================================================
 
-1. `box .....` Windows Dialog in Assembler
-2. `console .` Windows Console Message in Assembler with win32 API
-3. `printf ..` Windows Console Message in Assembler with C Standard Library
-4. `dll .....` Producing a DLL from Assembler
-5. `shared ..` Shared Memory in DLLs and Executables
-6. `static ..` Producing a static library from Assembler
+1. `box _____` Windows Dialog in Assembler
+2. `console _` Windows Console Message in Assembler with win32 API
+3. `printf __` Windows Console Message in Assembler with C Standard Library
+4. `dll _____` Producing a DLL from Assembler
+5. `shared __` Shared Memory in DLLs and Executables
+6. `static __` Producing a static library from Assembler
 
 Assembly Links
 ================================================================================
