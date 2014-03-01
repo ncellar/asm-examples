@@ -1,6 +1,6 @@
 .file "dllload.asm"
 
-# Displyas a message box, using code defined in a DLL loaded at load-time.
+# Displays a message box, using code defined in a DLL loaded at load-time.
 # dependencies : kernel32.dll
 
 .section .data
